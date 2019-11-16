@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+  <div id="image-container">
+    <% images.forEach((image) => { %>
+       <a href="#"><img src="<%= image.url %>"></a>
+    <% }) %>
+  </div>
+
+  <button id="add-image-button">Add Image Choice</button>
+
+    <script type="text/javascript" src="/javascripts/main.js"></script>
+  </body>
+</html>
